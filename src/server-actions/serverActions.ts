@@ -5,7 +5,7 @@ import {revalidatePath} from "next/cache";
 import {redirect} from "next/navigation";
 
 export const createCar = async (formData: FormData) => {
-        console.log(formData);
+        console.log('> createCar', formData);
         const brand = formData.get('brand') as string;
         const year = Number(formData.get('year'));
         const price = Number(formData.get('price'));
