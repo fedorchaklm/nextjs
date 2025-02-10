@@ -9,8 +9,13 @@ export const createCar = async (formData: FormData) => {
     const year = Number(formData.get('year'));
     const price = Number(formData.get('price'));
     const car = {brand, year, price};
-    await carService.createCar(car);
-    revalidatePath('/cars')
-    redirect('/cars');
+    try {
+        await carService.createCar(car);
+    } catch (e) {
+        console.log(e);
+    } finally {
+        revalidatePath('/cars')
+        redirect('/cars');
+      }
 };
 
