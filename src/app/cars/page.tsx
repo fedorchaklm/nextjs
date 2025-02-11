@@ -1,5 +1,5 @@
 import {Metadata} from "next";
-import CarsList from "@/app/components/cars-list/CarsList";
+import CarsList from "@/components/cars-list/CarsList";
 
 export const metadata: Metadata = {
     title: 'Cars page',

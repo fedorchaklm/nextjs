@@ -1,5 +1,5 @@
 import {carService} from "@/services/car.api.service";
-import Car from "@/app/components/car/Car";
+import Car from "@/components/car/Car";
 import {ICar} from "@/models/ICar";
 import Link from "next/link";
 

@@ -1,4 +1,4 @@
-import CarDetails from "@/app/components/car-details/CarDetails";
+import CarDetails from "@/components/car-details/CarDetails";
 import {FC} from "react";
 import {Metadata} from "next";
 

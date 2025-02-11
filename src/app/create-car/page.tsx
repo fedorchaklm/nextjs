@@ -1,4 +1,4 @@
-import CreateCarForm from "@/app/components/create-car-form/CreateCarForn";
+import CreateCarForm from "@/components/create-car-form/CreateCarForm";
 import {Metadata} from "next";
 
 export const metadata: Metadata = {
