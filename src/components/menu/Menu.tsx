@@ -9,6 +9,9 @@ const Menu = () => {
             <li className='hover:text-amber-200'>
                 <Link href='/cars'>Cars</Link>
             </li>
+            <li className='hover:text-amber-200'>
+                <Link href='/auth'>Login</Link>
+            </li>
         </ul>
     );
 };
